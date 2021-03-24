@@ -4,6 +4,7 @@
   width: 70%;
   h1 {
     margin: 50px;
+    margin-top: 80px;
   }
   p {
     text-align: left;
@@ -14,7 +15,8 @@
 }
 
 .second-screen-background {
-  height: 120vh;
+  height: fit-content;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
