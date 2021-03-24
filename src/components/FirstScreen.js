@@ -4,8 +4,8 @@ import Logo from "../img/logo.svg"
 
 const FirstScreen = () => {
     return (
-        <div>
-            <img src={Logo} alt=""/>
+        <div className="logo-container" >
+            <img src={Logo} alt="logo"/>
         </div>
     )
 }
