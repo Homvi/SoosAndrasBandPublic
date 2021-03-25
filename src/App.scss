@@ -15,7 +15,17 @@ body{
  background-blend-mode: difference;
   
 }
+@media only screen and (max-width: 600px) {
+  body{
 
+    background-image: url("./img/solen-feyissa-mobile.png");
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+  }
+
+}
 
 
 
