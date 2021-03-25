@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="contacts-container">
                 <p>Koncertszervezés:</p>
                 <p>Email: czpetya@gmail.com</p>
-                <p>Tel.: +36306212031</p>
+                <p>Tel.: +36304022494</p>
             </div>
             <div className="contacts-container">
                 <p>Sajtókapcsolat:</p>
