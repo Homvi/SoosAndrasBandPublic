@@ -46,6 +46,9 @@
 
 
 @media only screen and (max-width: 600px) {
+  .musicians-introduction-container{
+    width: 95%;
+  }
   .card{
     flex-direction: column;
   }

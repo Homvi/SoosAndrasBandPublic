@@ -1,7 +1,7 @@
 import React from 'react'
 import "./FirstScreen.scss"
-import Logo from "../img/logo.svg"
-import Logo1 from "../img/logoTwo.png"
+//import Logo from "../img/logo.svg"
+import Logo1 from "../img/LogoTwo.png"
 
 const FirstScreen = () => {
     return (
