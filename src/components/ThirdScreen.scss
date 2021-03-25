@@ -1,5 +1,4 @@
 .third-screen-background {
-  
   display: flex;
   justify-content: center;
   margin: auto;
@@ -17,8 +16,8 @@
       margin: 20px;
       // background-color: azure;
       display: flex;
-      p{
-          margin-top: 20px;
+      p {
+        margin-top: 20px;
       }
 
       .img-container {
@@ -44,18 +43,23 @@
   flex-direction: row-reverse;
 }
 
-
 @media only screen and (max-width: 600px) {
-  .musicians-introduction-container{
+  .third-screen-background {
     width: 95%;
+    h1{
+      font-size: 22px;
+    }
+    .musicians-introduction-container {
+      width: 90vw;
+    }
   }
-  .card{
+  .card {
     flex-direction: column;
   }
-  
-#card2,
-#card4 {
-  //background-color: blue;
-  flex-direction: column;
-}
+
+  #card2,
+  #card4 {
+    //background-color: blue;
+    flex-direction: column;
+  }
 }
