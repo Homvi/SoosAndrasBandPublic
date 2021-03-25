@@ -5,8 +5,8 @@ const SecondScreen = () => {
     return (
         <div className="second-screen-background">
 
-        <div className="introduction-container">
-<h1>Bemutatkozás</h1>
+        <div className="introduction-container" >
+<h1 id="introduction" >Bemutatkozás</h1>
 <p>Az együttes létrejöttét az alázat az autentikusság iránt, az  elkötelezettség a népzene iránt és a misszió a hagyományok iránt motiválta. 
 <br/><br/>
 Népzenénket, e hatalmas kulturális örökséget szeretnénk megmutatni elsősorban olyan, az anyaországtól távol élő, mégis magukat mindenkor magyarnak valló közösségeknek, akiknek megmaradt az identitása, akiknek magyarságukat és a mi magyarságunkat nem ideológiákkal, hanem tettel, betűvel, énekkel - s főként zenével bizonyítjuk.

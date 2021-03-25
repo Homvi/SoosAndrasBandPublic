@@ -1,22 +1,21 @@
 import React from "react";
 import "./Navbar.scss";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
     <nav id="navbar">
-      <a href="https://www.youtube.com/channel/UCHYMUekrpos9ozGc1rAlz9Q">
-        {" "}
+      <Link href="#" to="introduction" smooth={true} duration={500}>
         <div className="menu-pont">Bemutatkozás</div>
-      </a>
-      <a href="https://www.youtube.com/channel/UCHYMUekrpos9ozGc1rAlz9Q">
-        {" "}
+      </Link>
+      <Link to="musicians" smooth={true} duration={500}>
         <div className="menu-pont">Zenekari tagok</div>
-      </a>
-      <a href="https://www.youtube.com/channel/UCHYMUekrpos9ozGc1rAlz9Q">
+      </Link>
+      <Link to="footer" smooth={true} duration={500}>
         <div id="contact" className="menu-pont">
           Kapcsolat
         </div>
-      </a>
+      </Link>
     </nav>
   );
 };
