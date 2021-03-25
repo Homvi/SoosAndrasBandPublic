@@ -1,11 +1,13 @@
 .introduction-container {
   color: white;
+  background-color: #0c0a0dca;
   margin: auto;
   width: 70%;
-  
+  border-radius: 10px;
+
   h1 {
     margin: 50px;
-    margin-top: 130px;
+    margin-top: 30px;
   }
   p {
     text-align: left;
@@ -18,11 +20,12 @@
 
 .second-screen-background {
   height: fit-content;
- 
+  margin-bottom: 40px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
+  /*  background-image: linear-gradient(
     180deg,
     rgb(1, 49, 97),
     rgba(255, 255, 255, 0.137),
@@ -33,7 +36,7 @@
     rgba(255, 255, 255, 0.137),
     rgba(255, 255, 255, 0.137),
     rgba(255, 255, 255, 0.137)
-  );
+  ); */
 }
 
 ////mobile
