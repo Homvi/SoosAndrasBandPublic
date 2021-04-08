@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="menu-pont">Bemutatkozás</div>
       </Link>
       <Link to="musicians" smooth={true} duration={500}>
-        <div className="menu-pont">Zenekari tagok</div>
+        <div id="musicians" className="menu-pont">Zenekari tagok</div>
       </Link>
       <Link to="footer" smooth={true} duration={500}>
         <div id="contact" className="menu-pont">
